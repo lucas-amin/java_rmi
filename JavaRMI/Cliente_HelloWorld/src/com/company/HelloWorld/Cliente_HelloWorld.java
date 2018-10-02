@@ -23,7 +23,7 @@ interface InterfaceCli extends Remote {
 
 
 class CliImpl extends UnicastRemoteObject implements InterfaceCli {
-    public Remote getServer_registry() {
+    public Remote getServerRegistry() {
         return server_registry;
     }
 
@@ -56,7 +56,7 @@ public class Cliente_HelloWorld {
         while (true) {
             cliImpl.echo("sim");
 
-            System.out.println(cliImpl.getServer_registry());
+            System.out.println(cliImpl.getServerRegistry());
         }
     }
 

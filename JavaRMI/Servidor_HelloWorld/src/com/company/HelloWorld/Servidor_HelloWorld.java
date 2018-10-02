@@ -46,8 +46,5 @@ public class Servidor_HelloWorld {
 
         registry.bind("servImpl", servImpl);
 
-        while (true) {
-            System.out.println("1");
-        }
     }
 }
